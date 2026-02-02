@@ -1,11 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import { useState } from "react";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 import "./App.css";
 import Accordian from "./components/accordian";
 import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
+import LoadMoreData from "./components/load-more-data";
+import MenuView from "./components/menu-view";
+// import menus from "./components/menu-view";
+import QRCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
+
 
 function App() {
   return (
@@ -22,7 +28,13 @@ function App() {
         limit={"10"}
       /> */}
 
+      {/* <LoadMoreData /> */}
 
+      {/* <MenuView menus={menus} /> */}
+
+      {/* <QRCodeGenerator /> */}
+
+      <LightDarkMode />
 
     </div>
   );
