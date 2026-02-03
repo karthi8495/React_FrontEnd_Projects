@@ -8,13 +8,17 @@
 // import ImageSlider from "./components/image-slider";
 // import LoadMoreData from "./components/load-more-data";
 // import MenuView from "./components/menu-view";
-// // import menus from "./components/menu-view";
+// import menus from "./components/menu-view/data";
 // import QRCodeGenerator from "./components/qr-code-generator";
 // import LightDarkMode from "./components/light-dark-mode";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
 // import TabTest from "./components/custom-tabs/tab-test";
-import GithubProfileFinder from "./components/github-profile-finder";
+// import GithubProfileFinder from "./components/github-profile-finder";
+// import SearchAutocomplete from "./components/search-autocomplete-with-api";
+// import TicTacToe from "./components/tic-tact-toe";
+// import FeatureFlags from "./components/feature-flag";
+// import FeatureFlagGlobalState from "./components/feature-flag/context";
 
 
 function App() {
@@ -50,10 +54,16 @@ function App() {
       {/* <ModalTest /> */}
 
 
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
 
+      {/* <SearchAutocomplete /> */}
 
+      {/* <TicTacToe /> */}
 
+      {/* Feature Flag IMplementation */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState> */}
 
 
 
